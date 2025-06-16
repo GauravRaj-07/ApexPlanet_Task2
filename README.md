@@ -35,10 +35,6 @@ Each project focuses on different HTML, CSS, and JavaScript concepts including l
 ├── /assets # Images, icons (if used)
 └── /styles # CSS files (if separated)
 
-yaml
-Copy
-Edit
-
 ---
 
 ## 🛠️ Technologies Used
