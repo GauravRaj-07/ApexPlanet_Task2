@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gaurav Raj | Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #121212;
+      color: #ffffff;
+    }
+
+    header {
+      background: #1f1f2e;
+      padding: 20px 30px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 1.6em;
+      font-weight: bold;
+      color: #00bcd4;
+    }
+
+    ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    ul li a {
+      display: inline-block;
+      padding: 8px 16px;
+      border-radius: 5px;
+      color: #fff;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+
+    ul li a:hover {
+      background: #2e2e3f;
+    }
+
+    .container {
+      padding: 30px;
+    }
+
+    section {
+      background: #2f2f3f;
+      padding: 30px;
+      margin-bottom: 30px;
+      border-radius: 10px;
+    }
+
+    section h2 {
+      color: #00e5ff;
+      margin-bottom: 15px;
+    }
+
+    section p, a {
+      font-size: 1.1em;
+      color: #dddddd;
+      text-decoration: none;
+    }
+
+    .project {
+      margin-bottom: 15px;
+    }
+
+    .project a {
+      color: #81d4fa;
+      font-weight: bold;
+    }
+
+    @media (max-width: 768px) {
+      nav {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+      }
+
+      ul {
+        flex-direction: column;
+        width: 100%;
+        padding-top: 10px;
+      }
+
+      ul li a {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <div class="logo">👨‍💻 Gaurav Raj</div>
+      <ul>
+        <li><a href="#home">🏠 Home</a></li>
+        <li><a href="#projects">💼 Projects</a></li>
+        <li><a href="#contact">📬 Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+
+    <section id="home">
+      <h2>Hello, I'm Gaurav Raj</h2>
+      <p>
+        I'm a passionate Web Development intern at ApexPlanet, currently exploring HTML, CSS, and JavaScript. I enjoy building modern, responsive websites and web apps that are both visually appealing and functionally robust.
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>💼 Projects</h2>
+
+      <div class="project">
+        <p><strong>🎮 Video Game Info Page</strong> – A cyberpunk-themed responsive webpage with styled layout and JS interactivity.  
+          👉 <a href="https://github.com/GauravRaj-07/ApexPlanet_Task1" target="_blank">View on GitHub</a>
+        </p>
+      </div>
+
+      <div class="project">
+        <p><strong>📋 To-Do List App</strong> – A dynamic JavaScript project with DOM manipulation and task management features.  
+          👉 <a href="https://github.com/GauravRaj-07/todo-app" target="_blank">View on GitHub</a>
+        </p>
+      </div>
+
+      <div class="project">
+        <p><strong>📞 Contact Form</strong> – A responsive form with JavaScript validation and clean UI design.  
+          👉 <a href="https://github.com/GauravRaj-07/contact-form" target="_blank">View on GitHub</a>
+        </p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>📬 Contact Me</h2>
+      <p>Email: <a href="mailto:gauravrajgr504366@gmail.com">gauravrajgr504366@gmail.com</a></p>
+      <p>LinkedIn: <a href="www.linkedin.com/in/gauravraj07" target="_blank">linkedin.com/in/gaurav-raj</a></p>
+      <p>Phone: +91 9876543210</p>
+    </section>
+
+  </div>
+
+</body>
+</html>
